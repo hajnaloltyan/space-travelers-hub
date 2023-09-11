@@ -9,179 +9,190 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Space-Travelers](#space-travelers)
+- [📖 Space Travelers' Hub ](#-space-travelers-hub-)
+    - [How it Works](#how-it-works)
+    - [Rockets / Dragons](#rockets--dragons)
+    - [Missions](#missions)
+    - [My Profile](#my-profile)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#getting-started)
-    - [Install](#-install)
-    - [Usage](#-usage)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-author-)
+  - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
- 
-<!-- PROJECT DESCRIPTION -->
-<br>
 
-# 📖 Space-travelers (space-travelers) <a name="space-travelers"></a>
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Space Travelers' Hub <a name="about-project"></a>
 
  In this project, we have built a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions using real live data from the SpaceX API.
 
-# How it Works
+### How it Works
 The Space Travelers' Hub consists of three main sections:
 
-# Rockets / Dragons
+### Rockets / Dragons
 The Rockets section displays a list of all available SpaceX rockets. Users can easily book each rocket by clicking the reservation button or cancel their previously made booking. If your team has three members, the Dragons section is also included with the same functionalities.
 
-# Missions
+### Missions
 In the Missions section, users can explore and join different space missions. The application fetches real-time data from the SpaceX API to provide accurate information about upcoming missions.
 
-# My Profile
+### My Profile
 The My Profile section allows users to view their booking history and the missions they have joined. Users can also manage their profile settings and make changes as needed.
-
-<br>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The following stacks were used
+<details>
+  <summary>React</summary>
+</details>
 
-<details style="color:rgb(87, 247, 255);">
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
-    <li><a href="hhttps://create-react-app.dev/">Create React App</a></li>
- </ul>
+<details>
+  <summary>React Router</summary>
+</details>
+
+<details>
+  <summary>Redux</summary>
+</details>
+
+<details>
+  <summary>Redux Toolkit</summary>
+</details>
+
+<details>
+  <summary>React Bootstrap</summary>
+</details>
+
+<details>
+<summary>GitFlow</summary>
 </details>
 
 <!-- Features -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features <a name="key-features"></a>
 
-- **ReactJS library**
-- **Using JSX syntax**
-- **Unit test with jest**
-- **Boostrap**
+- **React**
+- **React Router**
+- **Redux**
+- **Redux Toolkit**
+- **React Bootstrap**
+- **GitFlow**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 🚀 Live Demo <a name="live-demo"></a>
-<a href="https://spacextravels.netlify.app/">Live Demo</a>
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://hajnaloltyan.github.io/space-travelers-hub/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-<br>
 
-# 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
 
-Clone this repository to your desired folder:
+### Prerequisites
 
-Example commands:
+In order to run this project you need:
 
-```bash
-  git clone git@github.com:PabloBona/space-travelers.git
-```
-<br>
+  - Code editor
+  - Node
 
-# 📖 Install
+### Setup
 
-Install this project's dependencies with:
-```
-cd space-travelers
-npm install
-```
+Clone this repository to your desired folder by opening the terminal and running the following command:
 
-<br>
+```sh
+  git clone git@github.com:hajnaloltyan/space-travelers-hub.git
 
-# 📖 Usage
-
-To run the project, execute the following command:
-
-```bash
- npm run start
 ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install
 
-<br>
+Install this project with:
 
-# Run tests
+```sh
+  npm install
 
-```bash
-  npm test
 ```
 
-<br>
+### Usage
 
-# 📖 Run linterns tests
+To run the project use the following command:
 
-If you follow the tutorial above to setup linters then you can run these tests
+```sh
+  npm run start
 
-```$
-  npx hint .
 ```
 
-```$
-  npx stylelint "**/*.scss"
-```
+### Run tests
 
-or if you use css then run this instead of the latter command above
+To run tests, run the following commands:
 
-```$
+  For CSS linter errors:
+
+```sh
   npx stylelint "**/*.{css,scss}"
+
 ```
 
-<br>
+  For ESLint linter errors:
 
-# Available Scripts
+```sh
+  npx eslint "**/*.{js,jsx}"
 
-In the project directory, you can run:
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
 ### Deployment
 
-You can deploy this project using: GitHub Pages or Netlify
+Deployed by GitHub Pages with command:
+
+```sh
+  npm run deploy
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-### 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
+👤 **Pablo Bonasera**
 
-- 👤 **Pablo Bonasera**   - GitHub: [@BonPa](https://github.com/PabloBona)
+- GitHub: [@BonPa](https://github.com/PabloBona)
  
-- 👤 **Hajnalka Oltyan**  - GitHub: [@Hajnalka](https://github.com/hajnaloltyan)
+👤 **Ali Baba**
+
+- GitHub: [@Ali Baba](https://github.com/Alibaba2023)
  
-- 👤 **Ali Baba**         - GitHub: [@Ali Baba](https://github.com/Alibaba2023)
- 
+👤 **Hajnalka Oltyan**
+
+- GitHub: [@hajnaloltyan](https://github.com/hajnaloltyan)
+- LinkedIn: [Hajnal Oltyan](https://www.linkedin.com/in/hajnalka-oltyan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Customizable notifications and alerts**
-- [ ] **Multilingual support**
+- To offer more Adventures to book
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,15 +202,13 @@ You can deploy this project using: GitHub Pages or Netlify
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PabloBona/space-travelers/issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can follow me on github for more.
+If you like this project please leave a star and a comment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,24 +216,10 @@ If you like this project you can follow me on github for more.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- We would like to express our heartfelt gratitude to Microvere for the invaluable learning experience they have provided. The supportive community, dedicated mentors, and remote collaboration opportunities have enhanced my technical skills and prepared me for real-world projects.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Are the linters necessary?**
-
-  - It is a good practice to install and use them as they guide you towards best practice, but yes you can do without.
+We would like to thank Microverse to have this opportunity. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](https://github.com/PabloBona/space-travelers/blob/live-demo/MIT.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
